@@ -6,8 +6,8 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.mydatas.modeldata.DataSiswa
-import com.example.mydatas.repositori.RepositoryDataSiswa
+import com.example.mydata.modeldata.DataSiswa
+import com.example.mydata.repositori.RepositoryDataSiswa
 import kotlinx.coroutines.launch
 import retrofit2.Response
 

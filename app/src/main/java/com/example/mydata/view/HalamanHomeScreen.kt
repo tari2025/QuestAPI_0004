@@ -1,6 +1,5 @@
 package com.example.mydata.view
 
-
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -11,17 +10,16 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.mydatas.R
-import com.example.mydatas.modeldata.DataSiswa
-import com.example.mydatas.uicontroller.route.DestinasiHome
-import com.example.mydatas.uicontroller.viewmodel.HomeViewModel
-import com.example.mydatas.uicontroller.viewmodel.PenyediaViewModel
-import com.example.mydatas.uicontroller.viewmodel.StatusUiSiswa
+import com.example.mydata.R
+import com.example.mydata.modeldata.DataSiswa
+import com.example.mydata.uicontroller.route.DestinasiHome
+import com.example.mydata.viewmodel.HomeViewModel
+import com.example.mydata.viewmodel.PenyediaViewModel
+import com.example.mydata.viewmodel.StatusUiSiswa
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -111,6 +109,9 @@ fun DaftarSiswa(
         }
     }
 }
+
+// Fungsi ItemSisswa yang typo dan duplikat sudah dihapus.
+// Hanya menyisakan satu fungsi ItemSiswa yang benar di bawah ini.
 
 @Composable
 fun ItemSiswa(

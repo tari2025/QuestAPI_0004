@@ -1,6 +1,6 @@
-package com.example.mydatas.apiservice
+package com.example.mydata.apiservice
 
-import com.example.mydatas.modeldata.DataSiswa
+import com.example.mydata.modeldata.DataSiswa
 import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.GET

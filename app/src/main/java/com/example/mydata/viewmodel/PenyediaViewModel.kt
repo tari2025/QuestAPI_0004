@@ -6,7 +6,7 @@ import androidx.lifecycle.createSavedStateHandle
 import androidx.lifecycle.viewmodel.CreationExtras
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.example.mydatas.repositori.AplikasiDataSiswa
+import com.example.mydata.repositori.AplikasiDataSiswa
 
 fun CreationExtras.aplikasiDataSiswa(): AplikasiDataSiswa =
     (this[ViewModelProvider.AndroidViewModelFactory.APPLICATION_KEY] as AplikasiDataSiswa)

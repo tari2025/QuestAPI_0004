@@ -8,16 +8,17 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.mydatas.R
-import com.example.mydatas.uicontroller.route.DestinasiEntry
-import com.example.mydatas.uicontroller.viewmodel.DetailSiswa
-import com.example.mydatas.uicontroller.viewmodel.EntryViewModel
-import com.example.mydatas.uicontroller.viewmodel.PenyediaViewModel
-import com.example.mydatas.uicontroller.viewmodel.UIStateSiswa
+import com.example.mydata.R
+import com.example.mydata.uicontroller.route.DestinasiEntry
+import com.example.mydata.viewmodel.DetailSiswa
+import com.example.mydata.viewmodel.EntryViewModel
+import com.example.mydata.viewmodel.PenyediaViewModel
+import com.example.mydata.viewmodel.UIStateSiswa
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)

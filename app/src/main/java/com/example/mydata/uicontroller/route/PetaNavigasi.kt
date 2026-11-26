@@ -7,8 +7,8 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.mydatas.uicontroller.view.HalamanEntryScreen
-import com.example.mydatas.uicontroller.view.HalamanHomeScreen
+import com.example.mydata.view.HalamanEntryScreen
+import com.example.mydata.view.HalamanHomeScreen
 
 @Composable
 fun DataSiswaApp(navController: NavHostController = rememberNavController(), modifier: Modifier) {

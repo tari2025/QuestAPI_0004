@@ -1,12 +1,8 @@
 package com.example.mydata.uicontroller.route
 
-object DestinasiEntry {
-}
-package com.example.mydata.uicontroller.route
-
-import com.example.mydatas.R
+import com.example.mydata.R
 
 object DestinasiEntry : DestinasiNavigasi {
     override val route: String = "entry"
-    override val titleRes: Int = R.string.menu_entry
+    override val titleRes: Int = R.string.entry_siswa
 }
